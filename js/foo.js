@@ -18,6 +18,12 @@ window.Foo = (function() {
     },
 
   };
+  Foo.greet = function(name) {
+      return ("Hello, " + name + "!")
+    };
+  
   return Foo;
+
+  
 
 })();
