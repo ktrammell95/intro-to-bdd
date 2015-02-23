@@ -5,8 +5,11 @@ window.Foo = (function() {
   }
 
   Foo.prototype = {
-
+    plusOne: function(num) {
+      return num += 1;
+    }
   };
+
 
   return Foo;
 
