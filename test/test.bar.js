@@ -54,6 +54,12 @@ describe("Bar", function() {
       });
  });
 
+  describe("rot13", function() {
 
+    it("takes a string and returns a string you can read", function() {
+        expect( bar.rot13("This is a test") ).eq("Guvf vf n grfg");
+
+      });
+ });
 });
 
