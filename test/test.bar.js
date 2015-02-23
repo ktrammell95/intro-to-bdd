@@ -13,7 +13,13 @@ describe("Bar", function() {
 
   });
 
-  
+  describe("cubed", function() {
+
+      it("takes a number and multiplies it by itself 3 times ", function() {
+        expect( typeof bar.cubed ).eq("function");
+      });
+
+    });
 
 
 });
