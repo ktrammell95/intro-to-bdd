@@ -30,10 +30,15 @@ describe("Bar", function() {
 
   });
 
+  describe("reverseString", function() {
+
+    it("takes a string and reverses the letters", function() {
+        expect( bar.reverseString("thank you") ).eq("uoy knaht");
+
+      });
+
+ });
 
 
 });
 
-// var exponentOf2 = exponentOf(2);
-// exponentOf2(4);
-// 16
