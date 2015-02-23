@@ -36,7 +36,14 @@ describe("Bar", function() {
         expect( bar.reverseString("thank you") ).eq("uoy knaht");
 
       });
+ });
 
+  describe("cipher", function() {
+
+    it("takes a letter and returns a character", function() {
+        expect( bar.cipher("n") ).eq("Ò");
+
+      });
  });
 
 
