@@ -40,8 +40,16 @@ describe("Bar", function() {
 
   describe("cipher", function() {
 
-    it("takes a letter and returns a character", function() {
-        expect( bar.cipher("n") ).eq("Ò");
+    it("takes a string and returns characters", function() {
+        expect( bar.cipher("Katherine") ).eq("¯ÅØÌÉÖÍÒÉ");
+
+      });
+ });
+
+  describe("decipher", function() {
+
+    it("takes a string of characters and returns a string you can read", function() {
+        expect( bar.decipher("¯ÅØÌÉÖÍÒÉ") ).eq("Katherine");
 
       });
  });
